@@ -26,7 +26,7 @@ Everyone in my family is a big reader. We often recommend and share books with e
 ###Solution:
 I wrote a Matrix Factorization library using Python, numPy, and Pandas.
 
-#Mini Example explaining how the UVDecomposition using Stochastic Gradient works:
+#Mini Example explaining how the UVDecomposition and Stochastic Gradient Descent works:
 
 ##Mini Example: Recommending Food (items) to Animals (Users)
 We are going to over a mini dataset that I created to test my code.
@@ -69,7 +69,6 @@ b) Update terms:
 ![New User](/squirrel.png?raw=true "New User")
 
 #Real World Application:
-##Book Recommender System
 ![Book Recommender](/book_intro.png?raw=true "Book Recommender")
 
 ##Model Mean Square Error Training and Test set Results:
