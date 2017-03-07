@@ -2,9 +2,11 @@
 
 README.md is a high level overview of my Capstone project.
 
-sgd_AE.py is the UVDecomposition using Stochastic Gradient class that I wrote using Python, NumPY, and Pandas.
+sgd_AE.py is the UVDecomposition using Stochastic Gradient Descent class that I wrote using Python, NumPY, and Pandas.
 
-SGD_Mini_Example.ipynb is a working example on how to use the UVDecomposition using Stochastic Gradient class using the same animal example from the Capstone presentation.
+SGD_Mini_Example.ipynb is a working example on how to use the UVDecomposition using Stochastic Gradient Descent class using the same animal example from the Capstone presentation.
+
+Handwritten calcs.pdf is a scan of my hand calcuations deriving the partial derivaites for the Stochastic Gradient Descent
 
 #Outline
 
@@ -74,3 +76,4 @@ b) Update terms:
 ![Model Results](/book_Model_Results.png?raw=true "Model Results")
 
 ##Examples of Prediction Results:
+![Prediction Results](/book_predict_1.png?raw=true "Book Recommendations")
