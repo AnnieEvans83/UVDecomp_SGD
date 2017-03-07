@@ -1,4 +1,4 @@
-#File Explanation
+###File Explanation
 
 README.md is a high level overview of my Capstone project.
 
@@ -7,30 +7,36 @@ sgd_AE.py is the UVDecomposition using Stochastic Gradient class that I wrote us
 SGD_Mini_Example.ipynb is a working example on how to use the UVDecomposition using Stochastic Gradient class using the same animal example from the Capstone presentation.
 
 #Outline
+
 *Introduction
+
 *Mini Example explaining how the model works
+
 *Book Recommendation overview
+
 *Next Steps for the Book Recommender
 
 
 #Introduction:
 
-Everyone in my family is a big reader. We often recommend and share books with each other despite each us having different taste in genres. We also occasionally get in a rut where no one has read anything awesome enough to share with the rest of the group. Therefore for my Capstone project and beyond I wanted to build a book recommendation system that would let you rate books and then have books recommended for you based on your past preferences. There was a barrier though, currently there is not a highly efficeint open sourced Matrix Factorization for Recommendations Systems available for Data Scientists.
+Everyone in my family is a big reader. We often recommend and share books with each other despite each us having different taste in genres. We also occasionally get in a rut where no one has read anything awesome enough to share with the rest of the group. Therefore for my Capstone project and beyond I wanted to build a book recommendation system that would let you rate books and then have the modelrecommend books for you based on your past preferences. There was a barrier though, currently there is not a highly efficeint open sourced Matrix Factorization for Recommendations Systems available for Data Scientists.
 
 ###Solution:
 I wrote a Matrix Factorization library using Python, numPy, and Pandas.
 
-#Mini Example: Recommending Food (items) to Animals (Users)
+#Mini Example explaining how the UVDecomposition using Stochastic Gradient works:
+
+##Mini Example: Recommending Food (items) to Animals (Users)
 We are going to over a mini dataset that I created to test my code.
 I did not actually poll any animals to determine there food preferences.
 ![User Cat](/user_cat_chicken.png?raw=true "User: Cat")
 
-#How do we fill in the unknowns?
+##How do we fill in the unknowns?
 ![Rating Matrix](/cat_rating_matrix.png?raw=true "Rating Matrix")
 
-#UVDecompization with Stochastic Gradient Descent
+##UVDecompization with Stochastic Gradient Descent
 ![UVDecomp + SGD](/predict_formula.png?raw=true "UVDecomp + SGD")
-#Steps:
+###Steps:
 1) Initiate Matrix U, Matrix V, user & item bias vectors.
 (Random values between 0 and 1)
 
@@ -51,20 +57,20 @@ b) Update terms:
 
 5) Repeat until adequate convergence.
 
-#Model Mean Square Error Training and Test set Results:
+##Model Mean Square Error Training and Test set Results:
 ![Model Results](/mini_model_results.png?raw=true "Model Results")
 
-#SGD Model Rating Prediction Table:
+##SGD Model Rating Prediction Table:
 ![Prediction Table](/mini_prediction_table.png?raw=true "Prediction Table")
 
-#SGD Model Recommendations on a new User:
+##SGD Model Recommendations on a new User:
 ![New User](/squirrel.png?raw=true "New User")
 
-##Real World Application:
-#Book Recommender System
+#Real World Application:
+##Book Recommender System
 ![Book Recommender](/book_intro.png?raw=true "Book Recommender")
 
-#Model Mean Square Error Training and Test set Results:
+##Model Mean Square Error Training and Test set Results:
 ![Model Results](/book_Model_Results.png?raw=true "Model Results")
 
-#Examples of Prediction Results:
+##Examples of Prediction Results:
