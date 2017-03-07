@@ -36,6 +36,8 @@ I did not actually poll any animals to determine there food preferences.
 ##How do we fill in the unknowns?
 ![Rating Matrix](/cat_rating_matrix.png?raw=true "Rating Matrix")
 
+#SOLVE IT WITH MATH!!
+
 ##UVDecompization with Stochastic Gradient Descent
 ![UVDecomp + SGD](/predict_formula.png?raw=true "UVDecomp + SGD")
 ###Steps:
@@ -76,3 +78,10 @@ b) Update terms:
 
 ##Examples of Prediction Results:
 ![Prediction Results](/book_predict_1.png?raw=true "Book Recommendations")
+
+#Next Steps
+
+##Creating a Web Application on a EC2 on AWS
+
+##Create a SQL database to save information about User's using there email
+
