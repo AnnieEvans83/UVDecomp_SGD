@@ -21,7 +21,7 @@ Handwritten calcs.pdf is a scan of my hand calcuations deriving the partial deri
 
 #Introduction:
 
-Everyone in my family is a big reader. We often recommend and share books with each other despite each us having different taste in genres. We also occasionally get in a rut where no one has read anything awesome enough to share with the rest of the group. Therefore for my Capstone project and beyond I wanted to build a book recommendation system that would let you rate books and then have the modelrecommend books for you based on your past preferences. There was a barrier though, currently there is not an effective open sourced Matrix Factorization for Recommendations Systems available for Data Scientists.
+Everyone in my family is a big reader. We often recommend and share books with each other despite each us having different taste in genres. We also occasionally get in a rut where no one has read anything awesome enough to share with the rest of the group. Therefore for my Capstone project and beyond I wanted to build a book recommendation system that would let you rate books and then have the model recommend books for you based on your past preferences. There was a barrier though, currently there is not an effective open sourced Matrix Factorization for Recommendations Systems available for Data Scientists.
 
 ###Solution:
 I wrote a Matrix Factorization library using Python, numPy, and Pandas.
