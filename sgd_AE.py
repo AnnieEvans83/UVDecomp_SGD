@@ -123,8 +123,7 @@ class sgdescent(object):
             if (n%self.mse_inter) == 0:
                 self.meanSquare(n)
                 self.meanSquare_Test(n)
-        print
-        return self.MSE, self.MSE_Test
+        return 
 
     def O_OUVij(self,i,j,eRror):
         '''INPUT:
