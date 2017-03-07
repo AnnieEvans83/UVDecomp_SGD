@@ -1,7 +1,23 @@
-#Problem Statement:
-Currently there is not an effective open sourced Matrix Factorization for Recommendations Systems available for Data Scientists.
+#File Explanation
 
-#Solution:
+README.md is a high level overview of my Capstone project.
+
+sgd_AE.py is the UVDecomposition using Stochastic Gradient class that I wrote using Python, NumPY, and Pandas.
+
+SGD_Mini_Example.ipynb is a working example on how to use the UVDecomposition using Stochastic Gradient class using the same animal example from the Capstone presentation.
+
+#Outline
+*Introduction
+*Mini Example explaining how the model works
+*Book Recommendation overview
+*Next Steps for the Book Recommender
+
+
+#Introduction:
+
+Everyone in my family is a big reader. We often recommend and share books with each other despite each us having different taste in genres. We also occasionally get in a rut where no one has read anything awesome enough to share with the rest of the group. Therefore for my Capstone project and beyond I wanted to build a book recommendation system that would let you rate books and then have books recommended for you based on your past preferences. There was a barrier though, currently there is not a highly efficeint open sourced Matrix Factorization for Recommendations Systems available for Data Scientists.
+
+###Solution:
 I wrote a Matrix Factorization library using Python, numPy, and Pandas.
 
 #Mini Example: Recommending Food (items) to Animals (Users)
@@ -24,11 +40,17 @@ I did not actually poll any animals to determine there food preferences.
 
 4)Update the terms in the Matrix U, Matrix V and the user & bias vectors using
 Gradient Descent.
+
 a) Partial derivatives:
+
 ![Partial derivatives](/partial_derivatives.png?raw=true "Partial derivatives")
+
 b) Update terms:
+
 ![Update Terms](/update_terms.png?raw=true "Update Terms")
+
 5) Repeat until adequate convergence.
+
 #Model Mean Square Error Training and Test set Results:
 ![Model Results](/mini_model_results.png?raw=true "Model Results")
 
