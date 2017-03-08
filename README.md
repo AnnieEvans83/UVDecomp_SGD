@@ -81,9 +81,9 @@ b) Update terms:
 
 #Next Steps
 
-##Creating a Web Application with FLASK on a EC2 on AWS
+##Web Application with FLASK on a EC2 on AWS
 
-##Create a SQL database 
+##SQL database to store users ratings
 
 ##Rest API
 
